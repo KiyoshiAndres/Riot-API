@@ -1,0 +1,18 @@
+import requests
+import apiKey
+
+# Your summoner Id
+summonerId: str = apiKey.Id
+
+# Your region code, for example Japan is jp1
+region: str = "jp1"
+
+# Your api Key (Hidden for security)
+apiKey: str = apiKey.Key
+
+encryptedSummonerIdUrl: str = "https://" + region + ".api.riotgames.com/lol/summoner/v4/summoners/by-name/" + summonerId + "?api_key=" + apiKey
+
+data = requests.get(encryptedSummonerIdUrl).json()
+encryptedSummonerId = data["id"]
+
+print("The user "+ summonerId + " has encrypted summonerId: " + encryptedSummonerId)
