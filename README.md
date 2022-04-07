@@ -2,7 +2,7 @@
 Data from Riot's api, for future use in training a model
 
 I drew some graphs to see what impacted the chances of winning a game the most. Damage, Kills, Deaths, etc.
-It seems shorter games with higher K/D have the biggest impact. Followed by Damage dealt. Damage dealt seems to be the most consistent factor one can modify.
+It seems shorter games with higher K/D have the biggest impact. Followed by deaths. Damage dealt seems to be the most consistent factor one can modify.
 
 <img width="631" alt="Screen Shot 2022-04-07 at 8 57 07" src="https://user-images.githubusercontent.com/89398401/162094491-49e280d0-adce-457a-a2ec-923a2dec362b.png">
 <img width="631" alt="Screen Shot 2022-04-07 at 8 57 58" src="https://user-images.githubusercontent.com/89398401/162094502-baf03729-5500-4ba5-aff6-51d2b3b6eaf4.png">
